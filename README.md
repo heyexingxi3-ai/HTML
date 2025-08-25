@@ -1,13 +1,4 @@
-# HTML
 
-<!doctype html>
-<html lang="ja">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>岡山県 交通シミュレーター（単一ファイル）</title>
-<style>body{font-family:system-ui, -apple-system, "Noto Sans JP", Arial;margin:0}header{padding:12px;border-bottom:1px solid #eee}.wrap{display:flex;gap:12px;height:calc(100vh - 64px)}.side{width:340px;padding:12px;box-sizing:border-box;overflow:auto;border-right:1px solid #eee}.mapwrap{flex:1;display:flex;flex-direction:column}#map{flex:1}label{display:block;margin-top:8px}select,input,button{padding:8px;width:100%;box-sizing:border-box;border-radius:8px;border:1px solid #ccc}.results{padding:8px;border-top:1px solid #eee;background:#fafafa}.small{font-size:13px;color:#444}.legend{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}.chip{padding:4px 8px;border-radius:999px;background:#fff;border:1px solid #eee;font-size:13px}</style>
-</head>
-<body>
 <header><h2>岡山県 交通シミュレーター（単一ファイル）</h2><div class="small">外部依存を最小化。OSRM が使えない場合は直線近似で表示します。</div></header>
 <div class="wrap">
   <div class="side">
